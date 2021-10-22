@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5593095.svg)](https://doi.org/10.5281/zenodo.5593095)
+
 ## Code for the Nature Communications article "The role of cyclonic activity in tropical temperature-rainfall scaling"
 
 This repository contains the code to reproduce the results and figures of the following article published in Nature Communications:
@@ -6,7 +8,7 @@ Traxl, D., Boers, N., Rheinwalt, A., Bookhagen, B., <b>The role of cyclonic acti
 
 ### DOI
 
-https:...
+https://doi.org/10.5281/zenodo.5593095
 
 ### Downloading Original Data
 
