@@ -158,12 +158,12 @@ def _generate_sbatch_commandfile(locs, sbfile):
     f.write('cd {}\n'.format(os.getcwd()))
     if cg_N is not None:
         f.write(
-            f"srun 16b_slurm_create_gl_sxt_vs_r.py {tcestr}"
+            f"srun 30_slurm_create_gl_sxt_vs_r.py {tcestr}"
             "-cg {} -l {}\n".format(cg_N, ' '.join([str(loc) for loc in locs]))
         )
     else:
         f.write(
-            f"srun 16b_slurm_create_gl_sxt_vs_r.py {tcestr}"
+            f"srun 30_slurm_create_gl_sxt_vs_r.py {tcestr}"
             "-l {}\n".format(' '.join([str(loc) for loc in locs]))
         )
     f.flush()
