@@ -127,7 +127,7 @@ def _generate_sbatch_commandfile(locs, sbfile):
     # $SLURM_ARRAY_TASK_ID
     f.write('cd {}\n'.format(os.getcwd()))
     f.write(
-        "srun 09b_slurm_create_glcp_burst_per_location.py -l {}\n".format(
+        "srun 18_slurm_create_glcp_burst_per_location.py -l {}\n".format(
             ' '.join([str(loc) for loc in locs]))
     )
     f.flush()
