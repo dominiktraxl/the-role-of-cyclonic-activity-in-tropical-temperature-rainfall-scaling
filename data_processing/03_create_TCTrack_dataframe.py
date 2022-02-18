@@ -1,3 +1,7 @@
+# parts of this script are copied/modified from the climada project
+# github: https://github.com/CLIMADA-project/climada_python
+# doi: https://doi.org/10.5281/zenodo.4598943
+
 import os
 import warnings
 
